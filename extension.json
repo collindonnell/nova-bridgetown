@@ -1,0 +1,18 @@
+{
+    "identifier": "com.collindonnell.bridgetown",
+    "name": "Bridgetown",
+    "organization": "Collin Donnell",
+    "description": "Integration with the Bridgetown static site generator.",
+    "version": "1.0",
+    "categories": ["tasks"],
+
+    "entitlements": {
+        "process": true
+    },
+
+    "main": "main.js",
+
+    "activationEvents": [
+        "onWorkspaceContains:bridgetown.config.yml"
+    ]
+}
